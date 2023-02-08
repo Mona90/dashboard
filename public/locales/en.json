@@ -1,0 +1,63 @@
+{
+    "layout": {
+        "sidebar": {
+            "dashboard": "dashboard",
+            "reception": "reception",
+            "employees": "employees",
+            "clinic"   : "clinic",
+            "internal_section": "internal section",
+            "patient": "patient",
+            "accounts": "accounts",
+            "warehouse": "warehouse",
+            "pharmacy": "pharmacy",
+            "lab" : "lab",
+            "xray" : "xray",
+            "medical_equipment": "medical equipment",
+            "settings": "settings"
+        },
+        "header":{
+            "language": "language",
+            "user": "user"
+        },
+        "dashboard":{
+            "appointment":"appointment",
+            "waiting":"waiting",
+            "today_operations": "today operations",
+            "inpatient": "inpatient",
+            "invoices": "invoices",
+            "occupancy": "occupancy",
+            "revenue": "revenue",
+            "expenses": "expenses",
+            "net_income": "net income"
+        },
+        "reception":{
+            "patient":"patient",
+            "appointments":"appointments",
+            "add_patient": "add patient",
+            "search_by": "Search by (code - name - phone number - national number)",
+            "name": "name",
+            "age": "age",
+            "gender":"gender",
+            "phone":"phone",
+            "address":"address",
+            "nationality": "nationality",
+            "code":"code",
+            "last_visit": "last visit",
+            "insurance":"insurance",
+            "actions":"actions"
+        },
+        "login":{
+            "login":"login",
+            "remember_me": "remember me",
+            "log_in": "log in",
+            "Please_enter_your_email": "Please enter your email!",
+            "enter_your_email": "enter your email",
+            "Please_enter_your_password": "Please enter your password!",
+            "enter_your_password": "enter your password"
+        },
+        "examination":{
+            "examination":"examination"
+
+        }
+    }
+}

@@ -1,0 +1,91 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+colors: {
+      main: {
+        // 100: "#EDF9FD",
+        // 200: "#C9ECFA",
+        // 300: "#A6DFF6",
+        // 400: "#82D3F3",
+        500: "#1677FF",
+        600: "#4d90fe",
+      },
+      "main-orange": {
+        100: "#FEF1ED",
+        200: "#FBD4C8",
+        300: "#F9B8A3",
+        400: "#F79C7E",
+        500: "#F47F59",
+        600: "#F15A29",
+      },
+      "main-yellow": {
+        100: "#FFF7EC",
+        200: "#FEE7C5",
+        300: "#FDD79F",
+        400: "#FCC778",
+        500: "#FBB752",
+        600: "#FBB040",
+      },
+      white: "#ffffff",
+      black: "#000",
+      success: "#28a745",
+      danger: "#dc3545",
+      warning: "#ffc107",
+      info: "#0dcaf0",
+      gray: {
+        50: "#F9FAFB",
+        100: "#F4F4F6",
+        200: "#E5E6EB",
+        300: "#D3D5DA",
+        400: "#9EA3AE",
+        500: "#6C727F",
+        600: "#4D5461",
+        700: "#394150",
+        800: "#212936",
+        900: "#0B0A0F",
+      },
+      red:{
+        400: '#EE6A5F',
+        500: '#f00',
+        600: '#cd0000',
+      },
+      "main-secondary": "#0009297d",
+      "green": "#5A9F0B",
+      "main-blue": "#4BC1C1",
+      "bg": "#F5FBFC"
+    },
+    fontFamily: {
+      sans: ["Plus Jakarta Sans", "sans-serif"],
+    },
+    fontSize: {
+      "xs": [".75rem", "1rem"],
+      "sm": [".875rem", "1.225rem"],
+      "base": ["1rem", "1.5rem"],
+      "base-tall": ["1rem", "1.6rem"],
+      "lg": ["1.125rem", "1.75rem"],
+      "xl": ["1.25rem", "1.75rem"],
+      "xl-tall": ["1.25rem", "2rem"],
+      "2xl": ["1.5rem", "2rem"],
+      "3xl": ["2rem", "2.25rem"],
+      "4xl": ["2.5rem", "1"],
+      "5xl": ["4rem", "1"],
+    },
+    fontWeight: {
+      regular: 400,
+      medium: 500,
+      bold: 700,
+      extrabold: 800,
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+      },
+    },
+    extend: {},
+  },
+  plugins: [],
+}

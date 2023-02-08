@@ -1,0 +1,63 @@
+{
+    "layout":{
+        "sidebar": {
+            "dashboard": "لوحة التحكم",
+            "reception": "الاستقبال",
+            "employees": "employees",
+            "clinic"   : "العيادة",
+            "internal_section": "القسم الداخلية",
+            "patient": "المرضى",
+            "accounts": "الحسابات",
+            "warehouse": "المخازن",
+            "pharmacy": "الصيدلية",
+            "lab" : "المعمل",
+            "xray" : "الاشعة",
+            "medical_equipment": "الاجهزة الطبية",
+            "settings": "الاعدادات"
+        },
+        "header":{
+            "language": "اللغة",
+            "user": "المستخدم"
+        },
+        "dashboard":{
+            "appointment":"المواعيد",
+            "waiting":"الانتظار",
+            "today_operations": "عمليات اليوم",
+            "inpatient": "المرضى الداخليين",
+            "invoices": "الفواتير",
+            "occupancy": "الإشغال",
+            "revenue": "الإيرادات",
+            "expenses": "النفاقات",
+            "net_income": "صافي الدخل"
+        },
+        "reception":{
+            "patient":"المرضى",
+            "appointments":"المواعيد",
+            "add_patient": "إضافة مريض",
+            "search_by": "البحث عن طريق (الرمز - الاسم - رقم الهاتف - الرقم القومي)",
+            "name": "الاسم",
+            "age": "العمر",
+            "gender":"النوع",
+            "phone":"الهاتف",
+            "address":"العنوان",
+            "nationality": "الجنسية",
+            "code":"الكود",
+            "last_visit": "اخر زيارة",
+            "insurance":"التأمين",
+            "actions":"الإجراءات"
+        },
+        "login":{
+            "login":"تسجيل الدخول",
+            "remember_me": "تذكرني",
+            "log_in": "دخول",
+            "Please_enter_your_email": "برجاء ادخال البريد الالكتروني!",
+            "enter_your_email": "ادخل بريدك الالكتروني",
+            "Please_enter_your_password": "برجاء ادخال الرقم السري!",
+            "enter_your_password": "ادخل رقمك السري"
+        },
+        "examination":{
+            "examination": "كشف"
+
+        }
+    }
+}
